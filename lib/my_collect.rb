@@ -4,6 +4,7 @@ def collect (languages)
     collection=[]
     while i< languages.length
       collection<<yield(array[i]) {|lang| lang.upcase}
+      i+=1
     end
   else
   end
