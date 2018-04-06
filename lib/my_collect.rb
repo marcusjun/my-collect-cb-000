@@ -1,4 +1,4 @@
-def collect (languages)
+def my_collect (languages)
   if block_given?
     i=0
     collection=[]
