@@ -6,7 +6,6 @@ def my_collect (languages)
       collection<<yield(languages[i]) #{|lang| lang.upcase}
       i+=1
     end
-  else
   end
   collection
 end
