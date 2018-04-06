@@ -3,7 +3,7 @@ def my_collect (languages)
     i=0
     collection=[]
     while i< languages.length
-      collection<<yield(array[i]) #{|lang| lang.upcase}
+      collection<<yield(languages[i]) #{|lang| lang.upcase}
       i+=1
     end
   else
